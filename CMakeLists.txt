@@ -21,7 +21,7 @@ include(FeatureSummary)
 
 find_package(Qt5 ${QT_MIN_VERSION} REQUIRED COMPONENTS Quick Widgets DBus)
 find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS I18n Config Declarative Service GlobalAccel KIO DBusAddons NewStuff)
-find_package(KSysGuard REQUIRED)
+find_package(KSysGuard 5.20.0 REQUIRED)
 find_package(Qt5QuickControls2  ${QT_MIN_VERSION})
 set_package_properties(Qt5QuickControls2 PROPERTIES
     TYPE RUNTIME
